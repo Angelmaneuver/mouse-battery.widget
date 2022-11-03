@@ -5,6 +5,9 @@ node_modules/
 dist/
 out/
 
+# ignore paid icons.
+mouse-battery.widget/lib/iconfinder/
+
 # ignore log files and databases
 *.log
 *.sql
