@@ -1,0 +1,22 @@
+{
+	"name": "library-for-mouse-battery",
+	"version": "1.0.0",
+	"author": "Angelmaneuver",
+	"license": "MIT",
+	"description": "Library for mouse battery.",
+	"scripts": {
+		"build": "webpack --mode production",
+		"package": "zip -r mouse-battery.widget.zip mouse-battery.widget"
+	},
+	"devDependencies": {
+		"@svgr/cli": "^6.5.0",
+		"@types/react": "^18.0.21",
+		"bootstrap-icons": "^1.9.1",
+		"eslint": "^8.25.0",
+		"ts-loader": "^9.4.1",
+		"ts-node": "^10.9.1",
+		"typescript": "^4.8.4",
+		"webpack": "^5.74.0",
+		"webpack-cli": "^4.10.0"
+	}
+}
